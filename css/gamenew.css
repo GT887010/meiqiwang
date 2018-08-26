@@ -1,0 +1,396 @@
+/*
+* @Author: admin
+* @Date:   2018-08-23 00:33:31
+* @Last Modified by:   admin
+* @Last Modified time: 2018-08-24 11:40:17
+*/
+
+.hm-main-clear{
+	width: 100%;
+	
+}
+.hm-nav-bar{
+	height: 240px;
+}
+.hm-main-clear>div{
+	float:left;
+	position: relative;
+}
+.hm-main-clear .imgleft{
+	width: 39%;
+	height: 200px;
+}
+.hm-main-clear .imgright{
+	height: 200px;
+	width: 61%;
+}
+.hm-main-clear img{
+	height:200px;
+}
+.hm-main-clear .left{
+	height:200px;
+	right:0px;
+	position:absolute;
+}
+.hm-main-clear .midel{
+	right: 170px;
+    height: 71px;
+    top: 72px;
+	position:absolute;
+	
+}
+.hm-main-clear .right{
+	left:-74px;
+	position:absolute;
+}
+.sectiongame{
+	width: 1250px;
+	overflow:hidden;
+	margin:30px auto;
+	
+}
+.ch-recom{
+	padding: 0 40px;
+	width: 100%;
+	height: 332px;
+}
+.ch-recom>div{
+	float:left;
+	height: 100%;
+}
+.ch-recom>.left{
+	width: 584px;
+    height: 332px;
+    overflow:hidden;
+    cursor:pointer;
+    position:relative;
+}
+.ch-recom .text-mask{
+	 width: 100%;
+    height: 100%;
+    background: url('../images/img3bg.png') repeat-x 0 bottom;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.ch-recom>.left>.title{
+	width: 554px;
+    margin-left: -277px;
+}
+.ch-recom>.right .title{
+    width: 263px;
+    margin-left: -131px;
+}
+.ch-recom .title{
+	
+	position: absolute;
+    left: 50%;
+    bottom: 14px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+}
+.ch-recom>.right{
+	width: 586px;
+	height: 332px;
+}
+.ch-recom>.right li{
+	width: 285px;
+    height: 163px;
+    margin: 0 0 6px 8px;
+    position:relative;
+    cursor:pointer;
+    overflow: hidden;
+    float:left;
+}
+.ch-recom>.right img{
+	width: 100%;
+	height: 100%;
+}
+.ch-block{
+	padding: 30px 40px;
+}
+.ch-block a{
+	/* height: 80px;
+	width: 580px; */
+	text-decoration: none;
+}
+.ch-block img{
+	width: 580px;
+	height: 80px;
+}
+.ch-block .mar{
+	margin-left:5px;
+}
+.maincontent{
+	padding:0 40px;
+	width: 1170px;	
+}
+.ma-bf{
+	float:left;
+	width: 790px;
+	position:relative;	
+}
+
+.ma-bf .border{
+	width: 100%;
+	position:absolute;
+	top:43px;
+	border-bottom: 3px solid #df0012;
+}
+.ma-bf .box-title{
+	margin-left:11px;
+	height: 46px;
+	
+}
+.ma-bf .box-title li{
+	position:relative;
+	float: left;
+    cursor:pointer;
+    line-height: 46px;
+    text-align: center;
+    font-size: 16px;
+    height: 100%;
+    margin: 0 15px;
+}
+.box-title li>div{
+	float:left;
+	line-height: 46px;
+    text-align: center;
+    font-size: 16px;
+    height: 100%;
+}
+.box-title>li>.lef{
+	position:absolute;
+	height: 46px;
+	width: 28px;
+	left:-28px;
+	background:url('../images/main1.png') no-repeat;
+	display:none;
+}
+.box-title>li>.right{
+	position:absolute;
+	height: 46px;
+	width: 28px;
+	right:-28px;
+	background:url('../images/main2.png') no-repeat;
+	display:none;
+}
+.box-title .current{
+	background:#df0012;
+	color:#fff;
+}
+.box-title .current>span{
+	display:block;
+}
+
+
+ .list-cloumn{
+	width:790px;
+	height:203px;
+	position:relative;
+	margin-bottom:30px;
+	margin-top:30px;
+	border-bottom:1px solid #dfdfdf;
+}
+.list-cloumn>a{
+	margin-top: 20px;
+	text-decoration:none;
+	line-height:21px;
+}
+.list-cloumn .type{
+	float:left;
+	font-size:15px;
+	color:red;
+	margin-right:20px;
+}
+.list-cloumn .title{
+	float:left;
+	font-size:19px;
+	color:#000;
+	font-weight: bold;	
+}
+.list-cloumn-img{
+	float:left;
+	position:absolute;
+	top:65px;
+	width:220px;
+	left:0px;
+	margin-right:24px;
+}
+.list-cloumn-img img{
+	width: 200px;
+}
+.list-cloumn .more{
+	margin-right:auto;
+	margin-left: auto;
+	height: 37px;
+	width: 200px;
+	margin-top: 10px;
+	margin-bottom:37px;
+	background: #f5f5f5;
+	text-align:center;
+}
+.list-cloumn .more a{
+	font-size:15px;
+	color:#323232;
+	line-height:37px;	
+}
+.list-cloumn-p{
+	height: 50px;
+    margin-top:20px;
+    line-height: 1.8;
+   	margin-right:0px;
+   	width:560px;
+   	float:right;
+    font-size: 14px;
+    color: #666;
+}
+.list-cloumn-p .info{
+	margin-top: 20px;
+	color:#999;
+}
+.list-cloumn-p .time{
+	position:relative;
+	margin-right:50px;
+	margin-left:10px;
+}
+.list-cloumn-p .time i{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: -15px;
+    width: 13px;
+    height: 13px;
+    margin: 3px 10px 0 0;
+    background: url('../images/clock.png') no-repeat
+}
+.ma-br{
+	width: 340px;
+	float:left;
+	margin-left:40px;
+} 
+/* .ma-br>.title{
+	float:right;
+	width: 340px;
+
+	
+
+} */
+.ma-br h5{
+	height:46px;
+	font-size:25px;
+	line-height:46px;
+	font-weight:700;
+	float:left;
+}
+.ma-br .title{
+	width:340px;
+	height: 46px;
+	margin-top: 20px;
+	border-bottom:2px solid #f3f3f3
+}
+.ma-br .title>a{
+	float:right;
+	font-size:13px;
+	text-decoration: none;
+	line-height:46px;
+	color:#929292;
+	position:relative;
+}
+.ma-br .title i{
+	position:absolute;
+	background:url('../images/icon-more.png') no-repeat;
+    height: 25px;
+    right: 34px;
+    top: 12px;
+    width: 25px;
+}
+.ma-br .hot{
+	width: 100%;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+.ma-br .hot ul{
+	padding:30px 30px;
+	background:#f3f3f3;
+	width: 280px;
+}
+.ma-br .hot li{
+	width: 280px;
+	margin-bottom:10px;
+}
+.ma-br .hot img{
+	width: 280px;
+	margin-bottom:10px;
+}
+.ma-br .hot p{
+	display: inline-block;
+    line-height: 28px;
+    font-size: 14px;
+    color: #939393;
+    height:50px;
+    text-decoration:none;
+}
+.ma-br .hot div{
+	bottom:10px;
+	font-size:16px;
+	font-weight:700;
+	line-height:40px;
+	font-weight: bold;
+	cursor:pointer;
+	color:#df0012;
+
+}
+.rec-cl{
+	width: 100%;
+	margin-top: 30px;
+}
+.rec-cl ul li{
+	width: 340px;
+	height: 94px;
+	margin-bottom:30px;
+}
+.rec-cl li .img{
+	height: 90px;
+	width: 90px;
+	float:left;
+	margin-top:4px;
+}
+.rec-cl li img{
+	border-radius: 45px;
+}
+.rec-cl li>.wold{
+	height: 90px;
+	width: 225px;
+	float:right;
+}
+ .rec-cl .wold>h4{
+ 	font-size: 16px;
+    padding-bottom: 5px;
+    font-weight:700;
+    color:#333;
+    cursor:pointer;
+ }
+ .rec-cl .wold>.midel{
+ 	cursor:pointer;
+    font-size: 14px;
+    color: #343434;
+    width:100%;
+    line-height:20px;
+    overflow:hidden;
+ }
+ .rec-cl .wold>.top{
+ 	line-height:25px;
+ 	height: 40px;
+    overflow: hidden;
+    font-size: 12px;
+    color: #676767;
+    line-height: 20px;
+    padding-top: 7px;
+ }
+
+

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>用户登录-美骑网</title>
+	<link rel="stylesheet" href="css/cssreset.css">
+	<link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+	<header>
+		<div class="one ">	
+			<div id="box">
+				<h1>美骑保险</h1><br>
+				<p>美骑保险提供全方位骑行安全保障解决方案，<br>让车友享受快乐骑行，免除后顾之忧。</p><br>
+				<a href="insurance.html" target="_blank"><span class="hong">点击了解更多</span></a>
+			</div>		
+		</div>
+
+		<div class="two hid">	
+			<div id="bo">
+				<h1>美骑车店库</h1><br>
+				<p>收录了国内最全面的自行车店信息<br>让车友不再为找不到车店而烦恼，<br>让店主不再为没有客人光顾而发愁。</p>
+				<a href="http://s.biketo.com/" target="_blank"><span class="hong">点击了解更多</span></a>
+			</div>		
+		</div>
+
+		<div class="three hid">	
+			<div id="bx">
+				<h1>美骑论坛</h1><br>
+				<p>约伴、分享、交流<br>
+				美骑论坛是自行车爱好者的线上天地，<br>
+				来自天南地北的车友们在这里分享自己的故事<br>
+				用精彩的文字、充满创意的图片展示属于骑行者的风采。
+				</p><br>
+				<a href="http://bbs.biketo.com/index.html" target="_blank"><span class="hong">点击了解更多</span></a>
+			</div>		
+		</div>
+
+	</header>
+
+
+	<div class="right">
+			 <div class="db">
+			 	<h5>欢迎登录</h5>
+			 	<p>没有美骑账号，立即<span><a href="http://i.biketo.com/member/register.html" target="_blank">注册</a></span></p>
+			 </div>
+			 <form action="#" method="post" onsubmit="return register()">
+			 <div class="username">
+			 <input type="text" id="user" placeholder="请输入用户名/手机/邮箱">
+			 </div>
+			 <div class="password">
+			 <input type="password" id="pass" placeholder="请输入密码">
+			 </div>
+			 <div class="yzmleft">
+			 <input type="text" id="inyzm" placeholder="请输入验证码">
+			  <div class="yzmright" id="yzm">
+			 <img src="images/yzm1.png" alt="" height="32px" width="113px" id="pic"><span>刷新</span>
+			 </div>
+			 </div>
+			
+			 <div class="check" id="checkbox">
+			 	<input type="checkbox"><p>记住我<span class="brbr" id="bro">（非本人电脑请不要勾选）</span>
+			 	<a href="http://i.biketo.com/resetting/request.html" target="_blank"><span class="brbr" id="brt">忘记密码？</span></a></p>
+			 </div>
+			 <div class="submit">
+			 	<input type="submit" value="立即登录">
+			 </div>
+			 <div class="rightbottom"><p>第三方登录</p></div>
+			</form> 
+	
+			<div class="logo">
+				<div class="lleft"></div>
+				<div class="logocenter">
+					<a href="https://graph.qq.com/oauth2.0/show?which=Login&display=pc&client_id=101166421&redirect_uri=https%3A%2F%2Fi.biketo.com%2FConnect%2Fcallback%2Ftype%2Fqq&response_type=code&scope=get_user_info" target="_blank"><span class="qq"></span></a>
+					<a href="https://open.weixin.qq.com/connect/qrconnect?appid=wx6343d3e20e9e5bcb&redirect_uri=https%3A%2F%2Fi.biketo.com%2FConnect%2Fcallback%2Ftype%2Fwechat&response_type=code&scope=snsapi_login" target="_blank"><span class="wx"></span></a>
+					<a href="https://api.weibo.com/oauth2/authorize?client_id=120205752&redirect_uri=https%3A%2F%2Fi.biketo.com%2FConnect%2Fcallback%2Ftype%2Fweibo&response_type=code" target="_blank"><span class="wb"></span></a>
+				</div>
+				<div class="rright"></div>
+			</div>
+		</div>
+	
+	
+	
+		
+		<footer class="bottom">
+			<p>
+				© 2018 BIKETO美骑网 All rights reserved. <br>
+				自由的钢铁 滚动的风景 | 粤ICP备12045810号
+			</p>
+		</footer>
+
+		<script src='JS/jquery.js'></script>
+		<script src='JS/login.js'></script>
+</body>
+</html>

@@ -1,0 +1,263 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style:none;
+}
+.hm-nav-bar{
+	position:relative;
+	width:100%;
+	min-width: 1250px;
+}
+.hm-nav-clear{
+	height:60px;
+	width:100%;
+}
+.hm-logo{
+	margin-left: 18px;
+	height:100%;
+	overflow:hidden;
+	float:left;
+}
+.hm-logo img{
+	height: 57px;
+	width:auto;
+	margin-top:3px;
+}
+.hm-navbg{
+	height:100%;
+	width:100%;
+	background:#df0012;
+}
+.navbg{
+	width:35%;
+    background:#f40316;
+    float:right;
+    border-left: 26px solid #df0012;
+    border-bottom:60px solid #f40316;
+}
+.navright-icon{
+	position:absolute;
+	right:10px;
+	/* width: 172px; */
+	height:100%;
+	top:0px;
+}
+.navright-icon>li{
+	float:left;
+	height:100%;
+	padding: 0 15px;
+	line-height: 60px;
+	vertical-align: middle;
+	cursor: pointer;
+
+}
+.navright-icon img{
+	width: 25px;
+	height: 25px;
+	line-height:60px;
+	vertical-align: middle;
+}
+.list{
+	position: relative;
+}
+.icon-list{
+	width: 114px;
+    padding: 0 10px;
+    background: #fff;
+    position: absolute;
+    right: 5px;
+    top: 70px;
+    border: 1px solid #f8f8f8;
+    text-align: center; 
+  	display:none;
+
+}
+.icon-list>li{
+	width: 100%;
+    height: 46px;
+    line-height: 46px;
+    font-size: 14px;
+    color: #474747;
+    border-bottom: 1px solid #f4f4f4;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+	
+}
+.hm-main{
+	width: 839px;
+	height: 100%;
+	position:absolute;
+	top:0px;
+	left:410px;
+}
+.hm-main>li{
+	height: 100%;
+	float:left;
+	text-align:center;
+	padding: 0 27px;
+	position:relative;
+	line-height:60px;
+	margin-left:-27px;
+	cursor:pointer;
+}
+.hm-main>li>.wold{
+	float:left;
+	color:#fff;
+	margin-left:-3px;
+	font-size:16px;
+	font-weight: 400;
+	line-height:50px;
+	padding:5px;
+}
+.hm-main>li>span{
+	height:100%;
+	width:27px;
+}
+.hm-main>li>.left{
+	background:url('../images/01.png') no-repeat;
+	background-size:90%;
+	margin-left:-27px;
+	height:100%;
+	float:left;
+	width:27px;
+	display:none;
+}
+.hm-main>li>.right{
+	background:url('../images/02.png') no-repeat;
+	height:100%;
+	float:left;
+	margin-right: -27px;
+	background-size:90%;
+	width:27px;
+	display:none;
+}
+.hm-main>.current>span{
+	display:block;	
+}
+.hm-main>.current>.wold{
+	background:#fff;
+	color:#df0012;
+}
+.hm-subnav{
+	height: 50px;
+	width: 100%;
+}
+.hm-subnav-w{
+	height: 100%;
+    width: 1202px;
+    margin: 0 auto;
+    position: relative;
+}
+.hm-subnav-w img{
+	height: 50px;
+}
+.hm-img-left{
+	position:absolute;
+	left:-150px;
+	top:0px;
+}
+.hm-img-midle{
+	position:absolute;
+	left:-21px;
+}
+.hm-img-right{
+	position:absolute;
+	right:-21px;
+	top:0px;
+}
+.hm-subnav-list{
+	width: 100%;
+	height: 100%;
+	position:absolute;
+	background:#282828;
+}
+.hm-subnav-list>ul{
+	margin:auto;
+	height:100%;
+	display:none;
+}
+.hm-subnav-list>.current{
+	display:block;
+	margin:auto;
+}
+.hm-subnav-list>ul li{
+	padding: 0 30px;
+    display: inline-block;
+    line-height: 50px;
+    position: relative;
+    color: #fff;
+    font-size: 16px;
+    cursor:pointer;
+}
+.hm-subnav-list>ul span{
+	background:url('../images/hm-subnavdivide.png') no-repeat;
+	position:absolute;
+	right:0px;
+	top:18px;
+	height:18px;
+	width:10px;
+}
+.hm-search{
+	width: 425px;
+	height: 60px;
+	background:#5e5e5e;
+	position:absolute;
+	top:0px;
+	right:140px;
+	line-height:60px;
+	text-align:center;
+	display:none;
+}
+.hm-search .search-l{
+	float:left;
+	height:60px;
+	margin-left:-21px;
+}
+.hm-search .search-r{
+	float:right;
+	height:60px;
+	margin-right:-21px;
+}
+.hm-search .input-text{
+	width: 85%;
+    height: 20px;
+    background-color: #fff;
+    padding: 8px 0;
+    line-height: 20px;
+    color: #828282;
+    margin-top: 11px;
+    text-indent: 16px;
+    font-size: 16px;
+}
+.hm-search .input-search{
+	height: 25px;
+    width: 28px;
+    position: absolute;
+    top: 12px;
+    right: 40px;
+    display: inline-block;
+    border: 0;
+    background: url('../images/icon-find-grey.png') no-repeat;
+    background-color: #fff;
+    margin-top: 6px;
+    color: #fff;
+    cursor: pointer;
+}
+.hm-search .imgleft{
+	position:absolute;
+	top: 12px;
+    width: 16px;
+    left: 14px;
+}
+.hm-search .imgright{
+	position:absolute;
+	top: 12px;
+    width: 16px;
+    right: 15px;
+}
+
+
+
+
+

@@ -1,0 +1,281 @@
+/*
+* @Author: lenovo
+* @Date:   2018-08-23 09:03:02
+* @Last Modified by:   lenovo
+* @Last Modified time: 2018-08-23 16:04:59
+*/
+
+html,body{
+	width: 100%;
+	height: 100%;
+	min-width: 700px;
+	/* min-height: 520px; */
+	overflow-x:hidden;
+	 overflow: hidden; 
+}
+
+
+#example-navbar-collapse{
+	/* min-width: 420px; */
+	margin-top:-30px;
+}
+section{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+section>div{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.section1{
+	background:url('../images/bg1.png') no-repeat;
+	background-size: 100% 100%;
+	position:relative;
+	overflow:hidden;
+}
+.section2{
+	background:url('../images/bg2.png') no-repeat;
+	background-size: 100% 100%;
+	position:relative;
+	overflow:hidden;
+
+}
+.section3{
+	background:url('../images/bg3.png') no-repeat;
+	background-size: 100% 100%;
+	position:relative;
+	overflow:hidden;
+}
+.section4{
+	background:url('../images/bg5.png') no-repeat;
+	background-size: 100% 100%;
+	position:relative;
+	overflow:hidden;
+}
+.pr{
+	position: relative;
+    top: 32px;
+}
+.bg{
+	position: relative;
+    left: -54px;
+    
+	    background: transparent;
+	    min-width: 700px;
+    border: none;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    border-radius: 0px;
+}
+.head{
+    position: fixed;
+    top: 0px;
+    height: 105px;
+    width: 100%;
+    z-index: 10;
+}
+.rig{
+	    margin-right: 8%;
+}
+.about{
+	margin-top: 20%;
+	
+	cursor: pointer;
+}
+#example-navbar-collapse .about>a{
+	color:white;
+}
+.mar-rig{
+	    margin-right: 25px;
+}
+.pa{
+	position: absolute;
+    top: -13%;
+    left: 14%;
+}
+.circle{
+	width: 10px;
+    height: 10px;
+    margin-bottom:260%;
+    cursor:pointer;
+    background:url('../images/anchor.png') center no-repeat;
+}
+.asid{
+	    position: fixed;
+    right: 7%;
+    top: 43%;
+    z-index: 10;
+}
+.active{
+	 background:url('../images/anchor-active.png') center no-repeat;
+}
+
+.mt{
+	margin-top:200px;
+}
+
+
+
+.h-div{
+	
+	width: 100%;
+	 position: absolute;
+    top: 18%;
+    left: 16%;
+}
+.h-div>h3{
+	    font-size: 66px;
+    font-weight: bold;
+        color: #3d454f;
+}
+.h-div>p{
+    font-size: 32px;
+    margin: 22px 0 57px 0;
+        color: #3d4650;
+}
+.download-div{
+	height: 18%;
+	width:22%;
+	    position: absolute;
+    top: 47%;
+    left: 16%;
+}
+.news{
+	height: 60%;
+	    position: absolute;
+    top: 17%;
+    right: 19%;
+	
+}
+.news>img{
+	height: 100%;
+}
+.ewm{
+	float:right;
+	width:37%;
+}
+.apple{
+	float:left;
+	width:52%;
+	    margin-bottom: 6%
+}
+.az{
+	float:left;
+	width:52%;
+}
+
+
+.h-div2{
+	
+	width: 100%;
+	 position: absolute;
+    top: 18%;
+    left: 40%;
+}
+.h-div2>h3{
+	    font-size: 66px;
+    font-weight: bold;
+        color:white;
+}
+.h-div2>p{
+    font-size: 32px;
+    margin: 22px 0 57px 0;
+        color: white;
+}
+.download-div2{
+	height: 18%;
+	width:22%;
+	    position: absolute;
+    top: 55%;
+    left: 58%;
+}
+.news2{
+	height: 60%;
+	    position: absolute;
+    top: 16%;
+    right: 71%;
+	
+}
+.news2>img{
+	height: 100%;
+}
+.ewm2{
+	float:left;
+	width:37%;
+}
+.apple2{
+	float:right;
+	width:52%;
+	    margin-bottom: 6%
+}
+.az2{
+	float:right;
+	width:52%;
+}
+
+.h-div3{
+	
+	width: 100%;
+	 position: absolute;
+    top: 18%;
+    left: 16%;
+}
+.h-div3>h3{
+	    font-size: 66px;
+    font-weight: bold;
+        color:white;
+}
+.h-div3>p{
+    font-size: 32px;
+    margin: 22px 0 57px 0;
+        color:white; 
+}
+.download-div3{
+	    height: 18%;
+    width: 22%;
+    position: absolute;
+    top: 52%;
+    left: 16%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+	    color: #fff;
+    width: 100%;
+    line-height: 19px;
+    font-size: 11px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    margin-bottom: 43px;
+}
